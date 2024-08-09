@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+/**
+ * main - main func
+ * Return: 0 on success
+ */
+
+int main(void)
+{
+	int i;
+
+	for (i = '0'; i <= '9';)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
+	return (0);
+}
