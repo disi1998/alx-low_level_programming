@@ -2,6 +2,7 @@
 
 /**
  * main - main func
+ * Return: 0
  */
 
 int main(void)
@@ -18,4 +19,5 @@ int main(void)
 		}
 	}
 	printf("%d\n", sum);
+	return (0);
 }
