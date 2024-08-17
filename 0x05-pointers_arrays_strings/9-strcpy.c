@@ -7,12 +7,17 @@
  * Return: dest
  */
 
-char _strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
-	int i;
+	int i = 0, j;
+	char temp;
 
-	for (i = 0; src[i] != '\0'; i++)
-		dest[i] = src[i];
-	dest[i] = '\0';
+	while (src[i] != '\0')
+		i++;
+	for (j = 0; j < i; j++)
+	{
+		temp = src[j];
+		dest[j] = temp;
+	}
 	return (dest);
 }
