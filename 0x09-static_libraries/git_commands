@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m poinrter_and_arrays
+git push
